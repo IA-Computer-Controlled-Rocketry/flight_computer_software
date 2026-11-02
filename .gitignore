@@ -1,0 +1,36 @@
+# ====================================================================
+# STM32CubeIDE Git Ignore Template
+# ====================================================================
+
+# 1. Build Outputs (Vary depending on your configuration Build Target)
+# --------------------------------------------------------------------
+Debug/
+Release/
+[Dd]ebug/
+[Rr]elease/
+
+# 2. Binary and Compilation Artifacts
+# --------------------------------------------------------------------
+*.elf
+*.map
+*.bin
+*.hex
+*.srec
+*.lst
+*.o
+*.obj
+*.d
+*.a
+*.su
+*.crl
+
+# 3. Eclipse & Workspace Metadata (Machine-Specific Logs & Traces)
+# --------------------------------------------------------------------
+.metadata/
+*.log
+*.bak
+
+# 4. Debugger Logs & Hardware Hardware Adapter Temporary Files
+# --------------------------------------------------------------------
+*.jlink
+.STMicroelectronics/
