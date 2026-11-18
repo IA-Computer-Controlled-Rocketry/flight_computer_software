@@ -8,6 +8,7 @@ Debug/
 Release/
 [Dd]ebug/
 [Rr]elease/
+Tests/
 
 # 2. Binary and Compilation Artifacts
 # --------------------------------------------------------------------
@@ -34,3 +35,20 @@ Release/
 # --------------------------------------------------------------------
 *.jlink
 .STMicroelectronics/
+
+# 5. AI Agent / Assistant Files (local only, never commit)
+# --------------------------------------------------------------------
+.claude/
+.agent/
+.agents/
+.cursor/
+.aider*
+.continue/
+.codex/
+.gemini/
+.windsurf/
+.copilot/
+CLAUDE.md
+CLAUDE.local.md
+AGENTS.md
+GEMINI.md
